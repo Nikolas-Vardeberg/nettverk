@@ -6,13 +6,13 @@ export const deskStructure = (S: any, context: any) =>
     .items([
       // PAGES ------------------
       S.listItem()
-        .title('Pages')
+        .title('Tutorial')
         .icon(Browsers)
         .child(
           S.list()
             .title('Sider')
             .items([
-              S.documentTypeListItem("page").title("Tutorials").icon(Browsers),
+              S.documentTypeListItem("page").title("Internett").icon(Browsers),
             ]),
         ),
     ])
