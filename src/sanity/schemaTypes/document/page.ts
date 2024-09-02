@@ -10,10 +10,6 @@ export default defineType({
       title: "Page",
       default: true,
     },
-    {
-      name: "seo",
-      title: "Seo"
-    }
   ],
   fields: [
     defineField({
